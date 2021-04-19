@@ -128,7 +128,7 @@ function App() {
             <View style={description.description}>
               <Text style={description.descTitle}>Description</Text>
               <Text style={description.textWeather}>
-                {weather.weather?.temp ?? "-"}
+                {weather.weather?.description ?? "-"}
               </Text>
             </View>
           </View>
