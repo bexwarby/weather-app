@@ -20,18 +20,13 @@ const top = StyleSheet.create({
         marginTop: 10,
         backgroundColor: '#7788AA',
     },
-    locationInput: {
-        flex: 1,
-        backgroundColor: '#FFFFAA'
-    },
     currentLocation: {
         color:"#2D4471" 
     },
-    buttonOne: {
-        flex: 1
-    }, 
     buttonTwo: {
-        flex: 1
+        flexDirection: "row",
+        justifyContent: "center",
+        alignItems: "center",
     },
     textLocation: {
         color: 'white',
